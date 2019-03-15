@@ -1,0 +1,85 @@
+
+<html>
+ <head>
+ <title>Servo Control</title>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+ </head>
+         <body>
+
+
+         Servo Motor Control:
+         <form method="get" action="exercise2.php">
+                <table>
+
+
+                  <tr>
+                   <td>
+                 <input type="submit" value="MINIMUM" name="min">
+                   </td>
+                   <td>
+                 <input type="submit" value="MIN-MID" name="min-mid">
+                   </td>
+                   <td>
+                 <input type="submit" value="MEDIUM" name="medium">
+                   </td>
+                   <td>
+                 <input type="submit" value="MID-MAX" name="mid-max">
+                   </td>
+                   <td>
+                 <input type="submit" value="MAX" name="max">
+                   <tr>
+
+
+                <tr>
+                    <td>
+                 <input type="submit" value="NEUTRAL" name="neutral">
+                   </td>
+                </tr>
+
+         <?php  //remember to start the daemon : sudo pigpiod
+         shell_exec("pigs m 2 w"); //set gpio2  in writeable mode
+
+         if(isset($_GET['neutral'])){
+                 shell_exec("pigs S 2 0");
+         }
+
+         if(isset($_GET['min'])){
+                 shell_exec("pigs S 2 700");
+         }
+
+         if(isset($_GET['min-mid'])){
+                 shell_exec("pigs S 2 1100");
+                  }
+
+         if(isset($_GET['medium'])){
+                 shell_exec("pigs S 2 1500");
+                  }
+
+         if(isset($_GET['mid-max'])){
+                 shell_exec("pigs S 2 1900");
+                  }
+
+         if(isset($_GET['max'])){
+                 shell_exec("pigs S 2 2300");
+         }
+         ?>
+         </body>
+ </html>
