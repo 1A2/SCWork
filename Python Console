@@ -1,0 +1,29 @@
+# At first we import the Servo from the gpiozero and the sleep from time.
+from gpiozero import Servo
+from time import sleep
+
+# Here we assign the GPIO pin to a variable
+myGPIO = 2
+
+#Here we're setting up our Minimum Pulse Width, and the maximum. We're then dividing by 1000 to get it into milisecounds
+#The aconstant is a variable that can be changed, but it helps this servo move all the way around to the edges
+aConstant = 0.45
+maxPW=(2.0+aConstant)/1000
+minPW=(1.0-aConstant)/1000
+
+#Here we make a new variable that defines the range between min and maximum. Using my GPIO as signal
+myServo = Servo(myGPIO,min_pulse_width=minPW,max_pulse_width=maxPW)
+
+#Here we create our loop which very rapidly ( each 0.1secound ) turns the rotating servo a tiny bit.
+while True:
+    for X in range(0, 20,):
+        NewValue=(float(X)-10)/10
+        print(X)
+        myServo.value=NewValue
+        sleep(0.5)
+#The following loop is not part of the assignment per se. But if we can make it go one way, we can also make it go backwards
+    for Y in range(20,-0,-1):
+        NewValue=(float(Y)-10)/10
+        print(Y)
+        myServo.value=NewValue
+        sleep(0.5)
