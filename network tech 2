@@ -1,0 +1,202 @@
+Wifi (Experiment1 test)
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.56, port 56568
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.56 port 56570
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  11.1 MBytes  93.3 Mbits/sec
+[  5]   1.00-2.00   sec  11.1 MBytes  93.2 Mbits/sec
+[  5]   2.00-3.00   sec  11.1 MBytes  92.7 Mbits/sec
+[  5]   3.00-4.00   sec  11.1 MBytes  93.0 Mbits/sec
+[  5]   4.00-5.00   sec  11.3 MBytes  94.7 Mbits/sec
+[  5]   5.00-6.00   sec  11.3 MBytes  95.0 Mbits/sec
+[  5]   6.00-7.00   sec  11.3 MBytes  95.1 Mbits/sec
+[  5]   7.00-8.00   sec  11.4 MBytes  95.5 Mbits/sec
+[  5]   8.00-9.00   sec  11.6 MBytes  97.1 Mbits/sec
+[  5]   9.00-10.00  sec  11.7 MBytes  97.7 Mbits/sec
+[  5]  10.00-10.03  sec   369 KBytes  97.3 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-10.03  sec  0.00 Bytes  0.00 bits/sec                  sender
+[  5]   0.00-10.03  sec   113 MBytes  94.7 Mbits/sec                  receiver
+
+Port test
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.57, port 54550
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.57 port 54552
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  27.3 MBytes   229 Mbits/sec
+[  5]   1.00-2.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   2.00-3.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   3.00-4.00   sec  28.2 MBytes   237 Mbits/sec
+[  5]   4.00-5.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   5.00-6.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   6.00-7.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   7.00-8.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   8.00-9.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   9.00-10.00  sec  28.3 MBytes   237 Mbits/sec
+[  5]  10.00-10.04  sec  1.03 MBytes   235 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-10.04  sec  0.00 Bytes  0.00 bits/sec                  sender
+[  5]   0.00-10.04  sec   283 MBytes   236 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.50, port 54474
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.50 port 54476
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  27.1 MBytes   227 Mbits/sec
+[  5]   1.00-2.00   sec  28.2 MBytes   237 Mbits/sec
+[  5]   2.00-3.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   3.00-4.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   4.00-5.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   5.00-6.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   6.00-7.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   7.00-8.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   8.00-9.00   sec  28.3 MBytes   237 Mbits/sec
+[  5]   9.00-10.00  sec  28.3 MBytes   237 Mbits/sec
+[  5]  10.00-10.04  sec  1.03 MBytes   235 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-10.04  sec  0.00 Bytes  0.00 bits/sec                  sender
+[  5]   0.00-10.04  sec   282 MBytes   236 Mbits/sec                  receiver
+
+Reverse mode tests
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.50, port 54482
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.50 port 54484
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  5]   0.00-1.00   sec  29.1 MBytes   244 Mbits/sec    0    543 KBytes
+[  5]   1.00-2.00   sec  28.3 MBytes   237 Mbits/sec    0    543 KBytes
+[  5]   2.00-3.00   sec  28.2 MBytes   237 Mbits/sec    0    543 KBytes
+[  5]   3.00-4.00   sec  28.2 MBytes   237 Mbits/sec    0    543 KBytes
+[  5]   4.00-5.00   sec  28.8 MBytes   241 Mbits/sec    0    543 KBytes
+[  5]   5.00-6.00   sec  28.0 MBytes   235 Mbits/sec    0    543 KBytes
+[  5]   6.00-7.00   sec  28.3 MBytes   237 Mbits/sec    0    543 KBytes
+[  5]   7.00-8.00   sec  28.8 MBytes   242 Mbits/sec    0    543 KBytes
+[  5]   8.00-9.00   sec  28.2 MBytes   237 Mbits/sec    0    543 KBytes
+[  5]   9.00-10.00  sec  28.3 MBytes   238 Mbits/sec    0    543 KBytes
+[  5]  10.00-10.02  sec   636 KBytes   238 Mbits/sec    0    543 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  5]   0.00-10.02  sec   285 MBytes   238 Mbits/sec    0             sender
+[  5]   0.00-10.02  sec  0.00 Bytes  0.00 bits/sec                  receiver
+
+
+
+(2.4 wifi, Reverse)
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.56, port 56572
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.56 port 56574
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  5]   0.00-1.00   sec  2.24 MBytes  18.8 Mbits/sec    0    178 KBytes
+[  5]   1.00-2.00   sec   764 KBytes  6.26 Mbits/sec    0    211 KBytes
+[  5]   2.00-3.00   sec   255 KBytes  2.08 Mbits/sec    0    232 KBytes
+[  5]   3.00-4.00   sec   509 KBytes  4.17 Mbits/sec    0    252 KBytes
+[  5]   4.00-5.00   sec   636 KBytes  5.21 Mbits/sec    0    272 KBytes
+[  5]   5.00-6.00   sec   318 KBytes  2.61 Mbits/sec    0    290 KBytes
+[  5]   6.00-7.00   sec   382 KBytes  3.13 Mbits/sec    0    310 KBytes
+[  5]   7.00-8.00   sec   764 KBytes  6.26 Mbits/sec    0    342 KBytes
+[  5]   8.00-9.00   sec   382 KBytes  3.13 Mbits/sec    0    421 KBytes
+[  5]   9.00-10.00  sec   509 KBytes  4.17 Mbits/sec    0    520 KBytes
+[  5]  10.00-10.11  sec  0.00 Bytes  0.00 bits/sec    0    542 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  5]   0.00-10.11  sec  6.65 MBytes  5.52 Mbits/sec    0             sender
+[  5]   0.00-10.11  sec  0.00 Bytes  0.00 bits/sec                  receiver
+(2.4 wifi, normal)
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.56, port 56576
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.56 port 56578
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  3.95 MBytes  33.1 Mbits/sec
+[  5]   1.00-2.00   sec  4.46 MBytes  37.4 Mbits/sec
+[  5]   2.00-3.00   sec  4.78 MBytes  40.1 Mbits/sec
+[  5]   3.00-4.00   sec  4.31 MBytes  36.1 Mbits/sec
+[  5]   4.00-5.00   sec  5.32 MBytes  44.7 Mbits/sec
+[  5]   5.00-6.00   sec  5.53 MBytes  46.4 Mbits/sec
+[  5]   6.00-7.00   sec  5.45 MBytes  45.7 Mbits/sec
+[  5]   7.00-8.00   sec  5.51 MBytes  46.2 Mbits/sec
+[  5]   8.00-9.00   sec  5.11 MBytes  42.8 Mbits/sec
+[  5]   9.00-10.00  sec  5.84 MBytes  49.0 Mbits/sec
+[  5]  10.00-10.04  sec   223 KBytes  52.2 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-10.04  sec  0.00 Bytes  0.00 bits/sec                  sender
+[  5]   0.00-10.04  sec  50.5 MBytes  42.2 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.50, port 54486
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.50 port 54488
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  5]   0.00-1.00   sec  29.2 MBytes   245 Mbits/sec    0    546 KBytes
+[  5]   1.00-2.00   sec  28.2 MBytes   236 Mbits/sec    0    546 KBytes
+[  5]   2.00-3.00   sec  28.8 MBytes   242 Mbits/sec    0    546 KBytes
+[  5]   3.00-4.00   sec  28.3 MBytes   237 Mbits/sec    0    546 KBytes
+[  5]   4.00-5.00   sec  28.2 MBytes   237 Mbits/sec    0    546 KBytes
+[  5]   5.00-6.00   sec  28.7 MBytes   241 Mbits/sec    0    574 KBytes
+[  5]   6.00-7.00   sec  28.3 MBytes   238 Mbits/sec    0    574 KBytes
+[  5]   7.00-8.00   sec  28.3 MBytes   238 Mbits/sec    0    574 KBytes
+[  5]   8.00-9.00   sec  28.3 MBytes   238 Mbits/sec    0    574 KBytes
+[  5]   9.00-10.00  sec  28.5 MBytes   238 Mbits/sec    0    574 KBytes
+[  5]  10.00-10.02  sec  0.00 Bytes  0.00 bits/sec    0    574 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  5]   0.00-10.02  sec   285 MBytes   238 Mbits/sec    0             sender
+[  5]   0.00-10.02  sec  0.00 Bytes  0.00 bits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.56, port 56580
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.56 port 56582
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  9.89 MBytes  82.9 Mbits/sec
+[  5]   1.00-2.00   sec  10.5 MBytes  88.0 Mbits/sec
+[  5]   2.00-3.00   sec  11.2 MBytes  94.0 Mbits/sec
+[  5]   3.00-4.00   sec  11.4 MBytes  95.2 Mbits/sec
+[  5]   4.00-5.00   sec  11.3 MBytes  94.9 Mbits/sec
+[  5]   5.00-6.00   sec  11.6 MBytes  97.7 Mbits/sec
+[  5]   6.00-7.00   sec  11.8 MBytes  98.9 Mbits/sec
+[  5]   7.00-8.00   sec  11.6 MBytes  97.5 Mbits/sec
+[  5]   8.00-9.00   sec  11.7 MBytes  98.5 Mbits/sec
+[  5]   9.00-10.00  sec  11.7 MBytes  98.1 Mbits/sec
+[  5]  10.00-10.04  sec   389 KBytes  86.6 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-10.04  sec  0.00 Bytes  0.00 bits/sec                  sender
+[  5]   0.00-10.04  sec   113 MBytes  94.5 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
+Accepted connection from 192.168.22.56, port 56584
+[  5] local 192.168.22.52 port 5090 connected to 192.168.22.56 port 56586
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  5]   0.00-1.00   sec  12.1 MBytes   102 Mbits/sec    0    547 KBytes
+[  5]   1.00-2.00   sec  13.0 MBytes   109 Mbits/sec    0   1.12 MBytes
+[  5]   2.00-3.00   sec  11.2 MBytes  94.2 Mbits/sec    0   1.65 MBytes
+[  5]   3.00-4.00   sec  12.5 MBytes   105 Mbits/sec    0   2.24 MBytes
+[  5]   4.00-5.00   sec  13.8 MBytes   115 Mbits/sec    0   2.82 MBytes
+[  5]   5.00-6.00   sec  10.0 MBytes  83.8 Mbits/sec  146   2.15 MBytes
+[  5]   6.00-7.00   sec  11.2 MBytes  94.4 Mbits/sec    0   2.33 MBytes
+[  5]   7.00-8.00   sec  12.5 MBytes   105 Mbits/sec    0   2.49 MBytes
+[  5]   8.00-9.00   sec  11.2 MBytes  94.4 Mbits/sec    0   2.61 MBytes
+^[[6~[  5]   9.00-10.00  sec  10.0 MBytes  83.9 Mbits/sec    0   2.72 MBytes    
+[  5]  10.00-10.20  sec  2.50 MBytes   105 Mbits/sec    0   2.74 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  5]   0.00-10.20  sec   120 MBytes  98.8 Mbits/sec  146             sender
+[  5]   0.00-10.20  sec  0.00 Bytes  0.00 bits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5090
+-----------------------------------------------------------
